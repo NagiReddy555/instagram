@@ -1,0 +1,17 @@
+<div class="col-md-4 offset-4 card  mt-4" >
+    <div class="card-body">
+        <form action="" #f="ngForm" (ngSubmit)="submit(f)">
+            <h1 class=" display-5 text-center">Login</h1>
+            <div >
+                    <input  ngModel type="text" name="email" id="email" class="form-control" placeholder="Enter email" >
+               
+           </div>
+            <div class="form-group">
+                   <input ngModel type="password" name="password" id="password" class="form-control mt-2"  placeholder="Enter password">
+                   </div>
+                   <div class="form-group">
+                   <button type="submit"  class="btn-primary form-control mt-4">Login</button>
+               </div>
+        </form>
+    </div>
+</div>
